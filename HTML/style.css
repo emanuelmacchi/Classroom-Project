@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    border: 0px; 
+    margin: 0px;
+}
+
+header {
+    background-image: url(ceu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    width: 3000px;
+    background-color: rgb(224, 146, 45);
+    border-bottom: #170688 solid 6px;
+}
+
+header .titulo_grande {
+    font-size: 3rem;
+    font-family: Papyrus, fantasy;
+    color: #170688;
+}
+
+header .sub_titulo {
+    position: flex;
+    font-size: 1.3rem;
+    font-family: Papyrus, fantasy;
+    color: #170688;
+    border-left: 500px;
+}
