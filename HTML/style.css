@@ -19,19 +19,30 @@ header {
 
 header .titulo_grande {
     font-size: 1.0rem;
-    padding: -15px;
+    padding: -30px;
     font-family: Papyrus, fantasy;
     color: #53a5f7;
     background-color: #170688;
     border-bottom: #000000 solid 3px;
 }
 
-header .sub_titulo {
-    position: flex;
-    font-size: 1.3rem;
+header .mytit {
+    position: absolute;
     font-family: Optima;
     color: #170688;
-    border-left: 500px;
+    font-weight: 800;
+    font-size: 5rem;
+    letter-spacing: -3px;
+}
+
+header .sub_titulo {
+    position: absolute;
+    font-size: 1.3rem;
+    font-family: Optima;
+    top: 100px;
+    color: #170688;
+    top: 130px;
+    left: 30px;
 }
 
 header .lista {
@@ -43,11 +54,27 @@ header .lista {
 header .lista .a{
     background-color: #170688;
     position: absolute;
-    top: 100px;
-    left: 50px;
+    top: 150px;
+    left: 415px;
+    font-size: 1.5rem;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    border: #000000 solid 2px;
+    box-shadow: 10px 5px rgb(68, 95, 184);
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+header .lista .a:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
 }
 
 header .lista .b{
     position: relative;
-    margin-left: 30px;
+    margin-left: 60px;
 }
