@@ -4,45 +4,48 @@
     margin: 0px;
 }
 
+.ancora {
+    position: absolute;
+    top: 5000px;
+}
+
 header {
-    background-image: url(ceu.jpg);
+    background-image: url(imagens/design1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 250px;
+    height: 300px;
     width: auto;
-    background-color: rgb(224, 146, 45);
-    border-bottom: #170688 solid 6px;
-    box-shadow: 20px 10px rgb(225, 221, 221);
+    border-bottom: #6d0202 solid 4px;
 }
 
-header .titulo_grande {
-    font-size: 1.0rem;
-    padding: -30px;
-    font-family: Papyrus, fantasy;
-    color: #53a5f7;
-    background-color: #170688;
-    border-bottom: #000000 solid 3px;
+.cima {
+    height: 10px;
+    width: auto;
+    background-color: #6e0505;
+    border-bottom: #000000 solid 2px;
 }
 
 header .mytit {
     position: absolute;
     font-family: Optima;
-    color: #170688;
+    color: #6e0505;
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 8rem;
     letter-spacing: -3px;
+    left: 30px;
+    top: 10px;
 }
 
 header .sub_titulo {
     position: absolute;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: Optima;
     top: 100px;
-    color: #170688;
+    color: #6e0505;
     top: 130px;
-    left: 30px;
+    left: 85px;
 }
 
 header .lista {
@@ -52,9 +55,9 @@ header .lista {
 }
 
 header .lista .a{
-    background-color: #170688;
+    background-color: #6e0505;
     position: absolute;
-    top: 150px;
+    top: 220px;
     left: 415px;
     font-size: 1.5rem;
     padding-left: 12px;
@@ -63,7 +66,7 @@ header .lista .a{
     padding-bottom: 2px;
     border-radius: 2px;
     border: #000000 solid 2px;
-    box-shadow: 10px 5px rgb(68, 95, 184);
+    box-shadow: 10px 5px rgb(68, 19, 19);
     transition: all 0.5;
     cursor: pointer;
 }
@@ -77,4 +80,85 @@ header .lista .a:hover{
 header .lista .b{
     position: relative;
     margin-left: 60px;
+}
+
+body {
+    background-color: #030405;
+}
+
+.inicio .img1 {
+    width: 690px;
+    border: #6d0202 solid 3px;
+    border-radius: 8px;
+    position: absolute;
+    top: 370px;
+    right: 150px;
+}
+
+.inicio .tit {
+    font-size: 5rem;
+    position: absolute;
+    top: 360px;
+    color: #a30000;
+    line-height: 55px;
+    font-family: Optima;
+    left: 100px;
+}
+
+.inicio p {
+    font-family: Optima;
+    position: absolute;
+    left: 100px;
+    color: #e1e1e1;
+    font-size: 1.4rem;
+    text-align: justify;
+    width: 630px;
+}
+
+.inicio .a {
+    top: 500px;
+    position: absolute;
+}
+
+.inicio .b {
+    top: 680px;
+    position: absolute;
+}
+
+main .loja1 {
+    position: relative;
+    width: auto;
+    height: 600px;
+    top: 590px;
+    border-top: #6d0202 solid 4px;
+    border-bottom: #6d0202 solid 4px;
+    background-color: #6e0505;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .loja1 .card {
+    margin-top: 50px;
+    width: 375px;
+    height: 500px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin-left: 100px;
+    border: solid 3px #000000;
+}
+
+main .loja1 .card .a {
+    margin-left: -100px;
+}
+
+main .loja1 .card img{
+    width: 100%;
+    height: auto;
+}
+
+main .loja1 .card .card-conteudo {
+    padding: 16px;
 }
