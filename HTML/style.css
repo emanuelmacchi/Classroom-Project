@@ -36,7 +36,7 @@ header .mytit {
     letter-spacing: -3px;
     left: 30px;
     top: 40px;
-    text-shadow: 0.01em 0.01em 0.01em rgb(255, 255, 255)
+    text-shadow: 0.01em 0.01em 0.01em rgb(0, 0, 0)
 }
 
 header .sub_titulo {
@@ -115,13 +115,12 @@ body {
     width: 630px;
 }
 
-.inicio .a {
-    top: 500px;
-    position: absolute;
-}
-
 .inicio .b {
     top: 700px;
+    position: absolute;
+}
+.inicio .a {
+    top: 500px;
     position: absolute;
 }
 
@@ -142,7 +141,7 @@ body {
 main .loja1 {
     position: relative;
     width: auto;
-    height: 600px;
+    height: 700px;
     top: 400px;
     border-top: #6d0202 solid 4px;
     border-bottom: #6d0202 solid 4px;
@@ -160,19 +159,63 @@ main .loja1 .card {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    margin-left: 100px;
+    margin-left: 90px;
     border: solid 3px #000000;
-}
-
-main .loja1 .card .a {
-    margin-left: -100px;
+    background-color: #030405;
+    box-shadow: 5px 5px rgb(58, 14, 14);
 }
 
 main .loja1 .card img{
     width: 100%;
     height: 400px;
+    border-bottom: solid 3px #470000;
 }
 
 main .loja1 .card .card-conteudo {
     padding: 16px;
+    color: #e8e5e5;
+}
+
+main .loja1 .card .card-conteudo p{
+    text-align: justify;
+    width: 280px;
+    position: relative;
+    top: -5px;
+    font-family:  sans-serif;
+    line-height: 18px;
+}
+
+main .loja1 .card .card-conteudo h5{
+    font-family: maharlika;
+    font-size: 2rem;
+    color: #a30000;
+    font-weight: 900;
+}
+
+main .loja1 .card .card-conteudo .btn{
+    color: #fefefe;
+    text-decoration: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #a30000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 110px;
+    top: 25px;
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+main .loja1 .card .card-conteudo .btn:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+main .tabela {
+    background-color: #e1e1e1;
+    position: absolute;
+    top: 50%;
 }
